@@ -1,0 +1,18 @@
+#bndcmpr{
+    text-align: center;
+    font-family:monospace;
+    font-size:larger;
+}
+#Gush1title{
+    font-family:optima;
+}
+div.tracklist{
+    font-family:optima;
+}
+div.tracklist h2{
+    font-family:optima;
+}
+ol{
+    font-size:medium;
+    font-weight: lighter;
+}

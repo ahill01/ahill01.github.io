@@ -1,0 +1,61 @@
+h1{
+    font-family:monospace;
+    font-size:xx-large;
+}
+h2{
+    font-family:monospace;
+    font-size:x-large;
+}
+h3{
+    font-family:monospace;
+}
+.header{
+    background-color:lavender;
+    text-align: center;
+    padding:20px;
+}
+#navbar{
+  overflow: hidden;
+  background-color: #333
+}
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+}   
+div#navbar > a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 60px;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: larger;
+}
+div#navbar > a:hover{
+  background-color: #ddd;
+  color: black;
+}
+#home {
+    background-color:lightsalmon;
+}
+#blog {
+    background-color: lightskyblue;
+}
+#playlists {
+    background-color: mediumaquamarine;
+}
+#about{
+    background-color:plum;
+}
+#search {
+    background-color: pink;
+    width: 50%;
+    font-family:monospace;
+}
