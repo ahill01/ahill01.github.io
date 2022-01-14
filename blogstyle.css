@@ -1,0 +1,49 @@
+
+.artistlinks > a{
+    font-family:monospace;
+    background-color:rgb(186, 223, 179);
+    padding-left:10px;
+    padding-right:10px;
+}
+a:hover{
+  background-color: #ddd;
+  color: black;
+}
+
+img{
+ display:block;
+ align-content: center;
+ margin-left:auto;
+ margin-right:auto;
+ width: 50%;
+}
+.blogentry{
+    border: slateblue;
+    background-color: hsla(0, 100%, 90%, 0.3);
+    text-align:left;
+    margin-top:10px;
+    margin-left:125px;
+    margin-right:125px;
+    padding-top: 15px;
+    padding-bottom:5px;
+    padding-left:20px;
+    padding-right:20px;
+    font-size: large;
+    font-family:optima;
+}
+.blogentry h2 {
+    font-family:optima;
+    font-size:xx-large;
+}
+.blogentry h3{
+    font-family:optima;
+}
+.pubdate{
+    font-family:optima;
+    font-size:small;
+    font-weight: 200;
+}
+p{
+    padding-left: 10px;
+    padding-right:10px;
+}
