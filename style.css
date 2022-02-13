@@ -56,12 +56,13 @@ div#navbar > a:hover{
 #playlists {
     background-color: mediumaquamarine;
 }
-#about{
+#submissionPage{
     background-color:plum;
 }
 #faq{
     background-color:rgba(233, 211, 90, 0.904);
 }
+
 #search {
     background-color: pink;
     width: 50%;
@@ -95,4 +96,9 @@ p{
 div.contact > a:hover{
     background-color: #ddd;
     color: black;
+}
+
+div#faqInfo {
+    padding:15px;
+    float:left;
 }
