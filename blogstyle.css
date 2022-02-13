@@ -34,6 +34,7 @@ img{
 .blogentry h2 {
     font-family:optima;
     font-size:xx-large;
+    color:rgb(61, 7, 100);
 }
 .blogentry h3{
     font-family:optima;
@@ -46,4 +47,7 @@ img{
 p{
     padding-left: 10px;
     padding-right:10px;
+}
+h2 > a {
+    color:rgb(61, 7, 100);
 }

@@ -2,10 +2,15 @@ h1{
     font-family:monospace;
     font-size:xx-large;
 }
+div#featured > h1{
+    font-family:optima;
+}
+
 h2{
     font-family:monospace;
     font-size:x-large;
 }
+
 h3{
     font-family:monospace;
 }
@@ -54,8 +59,40 @@ div#navbar > a:hover{
 #about{
     background-color:plum;
 }
+#faq{
+    background-color:rgba(233, 211, 90, 0.904);
+}
 #search {
     background-color: pink;
     width: 50%;
     font-family:monospace;
+}
+p{
+    font-family:optima;
+}
+#AboutMe{
+    font-family:optima;
+}
+
+#emailbox{
+    background-color:plum; 
+    padding:15px;
+    border:5px solid indigo;
+    float:left;
+}
+#twitter{
+    background-color:rgb(131, 185, 221); 
+    padding:15px;
+    border:5px solid indigo;
+    float:left;
+}
+#insta{
+    background-color:rgb(106, 160, 70); 
+    padding:15px;
+    border:5px solid indigo;
+    float:left;
+}
+div.contact > a:hover{
+    background-color: #ddd;
+    color: black;
 }
